@@ -1,0 +1,23 @@
+
+public class DemoFunction {
+	public static void main(String[] args) {
+		int soA = 3;
+		int soB = 4;
+		int tong = soA + soB;
+		System.out.println("Tong = " + tong);
+		tinhTong();
+		tinhTong2(10, 20);
+	}
+	//Hàm không có tham số (không có giá trị trả về)
+	public static void tinhTong() {
+		int soC = 5;
+		int soD = 6;
+		int tong = soC + soD;
+		System.out.println("Ham tinh tong: " + tong);
+	}
+	//Hàm có tham số
+	public static void tinhTong2(int soE, int soF) {
+		int tong = soE + soF;
+		System.out.println("Ham co tham so tong: " + tong) ;
+	}
+}

@@ -1,0 +1,16 @@
+
+public class DemoFunction {
+	public static void main(String[] args) {
+		int soA = 3;
+		int soB = 4;
+		int tong = soA + soB;
+		System.out.println("Tong = " + tong);
+		tinhTong();
+	}
+	public static void tinhTong() {
+		int soC = 5;
+		int soD = 6;
+		int tong = soC + soD;
+		System.out.println("Ham tinh tong: " + tong);
+	}
+}

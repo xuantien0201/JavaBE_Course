@@ -1,0 +1,9 @@
+
+public class DemoFunction {
+	public static void main(String[] args) {
+		int soA = 3;
+		int soB = 4;
+		int tong = soA + soB;
+		System.out.println("Tong = " + tong);
+	}
+}
