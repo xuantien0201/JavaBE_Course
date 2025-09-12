@@ -7,13 +7,13 @@ public class DemoOOP {
 		
 		giaoVien giaoVienA = new giaoVien();
 		giaoVienA.tinhLuong();
+		
 		hieuTruong ht1 = new hieuTruong("Hieu Truong A", "A14", "19-03-1999");
 		ht1.tinhLuong();
 		System.out.println("Hieu truong co ten la: " + ht1.getHoTen());
 		System.out.println("Kiem Tra: " + sinhVienA.getHoTen());
 		System.out.println("Kiem Tra: " + sinhVienB.hoTen);
-		giaoVienA.denTruong();
-
+		
 	}
 }
 class sinhVien {
@@ -57,11 +57,7 @@ class sinhVien {
 		this.ngaySinh = ngaySinh;
 	}
 }
-
-interface hanhDong {
-	void denTruong();
-}
-class giaoVien extends sinhVien implements hanhDong  {
+class giaoVien extends sinhVien {
 	String monHoc;
 
 	public giaoVien(String hoTen, String lop, String ngaySinh) {
@@ -73,18 +69,12 @@ class giaoVien extends sinhVien implements hanhDong  {
 	public void tinhLuong() {
 		System.out.println("Luong giao vien 10tr");
 	}
-	@Override
-	public void denTruong() {
-		// TODO Auto-generated method stub
-		System.out.println("Bang xe dap");
-		
-	}
 	
 }
-				// ghi đè override
-				// khi class con muốn định nghĩa lại 1 phương thức của class cha
-				//  mục đích là class con thay đổi hoặc bổ sung vào phương thức
-				//cha mà không làm thay đổi phương thức cha
+//ghi đè override
+// khi class con muốn định nghĩa lại 1 phương thức của class cha
+// mục đích là class con thay đổi hoặc bổ sung vào phương thức
+//cha mà không làm thay đổi phương thức cha
 
 class hieuTruong extends giaoVien {
 	String quanLy;

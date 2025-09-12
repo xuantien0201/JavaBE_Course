@@ -7,13 +7,13 @@ public class DemoOOP {
 		
 		giaoVien giaoVienA = new giaoVien();
 		giaoVienA.tinhLuong();
+		giaoVienA.denTruong();
 		hieuTruong ht1 = new hieuTruong("Hieu Truong A", "A14", "19-03-1999");
 		ht1.tinhLuong();
 		System.out.println("Hieu truong co ten la: " + ht1.getHoTen());
 		System.out.println("Kiem Tra: " + sinhVienA.getHoTen());
 		System.out.println("Kiem Tra: " + sinhVienB.hoTen);
-		giaoVienA.denTruong();
-
+		
 	}
 }
 class sinhVien {
