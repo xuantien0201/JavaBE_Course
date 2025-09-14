@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;BaiTapChuong2OPP&apos; to &apos;BaiTapChuong2OOP&apos;&#x0D;&#x0A;- Original project: &apos;FirstStep&apos;&#x0D;&#x0A;- Original element: &apos;BaiTapChuong2OPP&apos;&#x0D;&#x0A;- Renamed element: &apos;BaiTapChuong2OOP&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BaiTapChuong2OPP&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{BaiTapChuong2OPP.java[BaiTapChuong2OPP" matchStrategy="1" name="BaiTapChuong2OOP" qualified="false" references="true" similarDeclarations="false" stamp="1757866626015" textual="false" version="1.0"/>
+</session>
