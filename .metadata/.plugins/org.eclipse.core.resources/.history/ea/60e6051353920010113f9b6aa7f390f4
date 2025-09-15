@@ -1,0 +1,79 @@
+package BaiTapOOP;
+
+public class SinhVien {
+	String hoTen;
+	String maSV;
+	float diemToan, diemLy, diemHoa;
+	
+	
+	public SinhVien(String hoTen, String maSV, float diemToan, float diemLy, float diemHoa) {
+		super();
+		this.hoTen = hoTen;
+		this.maSV = maSV;
+		this.diemToan = diemToan;
+		this.diemLy = diemLy;
+		this.diemHoa = diemHoa;
+	}
+	
+	public String getHoTen() {
+		return hoTen;
+	}
+	public void setHoTen(String hoTen) {
+		this.hoTen = hoTen;
+	}
+	public String getMaSV() {
+		return maSV;
+	}
+	public void setMaSV(String maSV) {
+		this.maSV = maSV;
+	}
+	public float getDiemToan() {
+		return diemToan;
+	}
+	public void setDiemToan(float diemToan) {
+		this.diemToan = diemToan;
+	}
+	public float getDiemLy() {
+		return diemLy;
+	}
+	public void setDiemLy(float diemLy) {
+		this.diemLy = diemLy;
+	}
+	public float getDiemHoa() {
+		return diemHoa;
+	}
+	public void setDiemHoa(float diemHoa) {
+		this.diemHoa = diemHoa;
+	}
+	@Override
+	public String toString() {
+		return "SinhVien [hoTen=" + hoTen + ", maSV=" + maSV + ", diemToan=" + diemToan + ", diemLy=" + diemLy
+				+ ", diemHoa=" + diemHoa + "]";
+	}
+	
+	public float getdiemTB() {
+		return (diemToan + diemHoa + diemLy) / 3;
+	}
+	
+	public String xepLoai() {
+		float diemTB = getdiemTB();
+		if(diemTB >= 9) {
+			return "Xuất sắc";
+		}else if(diemTB < 9) {
+			return "Giỏi";
+		}else if(diemTB < 8) {
+			return "Khá";
+		}else if(diemTB < 7) {
+			return "Trung Bình Khá";
+		}else if(diemTB < 6) {
+			return "Trung Bình";
+		}
+		return "Yếu";
+	}
+	
+	public 
+	public static void main(String[] args) {
+		
+	}
+
+}

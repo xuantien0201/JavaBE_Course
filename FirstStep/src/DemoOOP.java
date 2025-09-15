@@ -13,7 +13,7 @@ public class DemoOOP {
 		System.out.println("Kiem Tra: " + sinhVienA.getHoTen());
 		System.out.println("Kiem Tra: " + sinhVienB.hoTen);
 		giaoVienA.denTruong();
-
+		
 	}
 }
 class sinhVien {

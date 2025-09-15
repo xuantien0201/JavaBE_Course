@@ -1,0 +1,59 @@
+
+public class BaiTapChuong2OOP {
+	public static void main(String[] args) {
+		
+	}
+}
+class sinhVien{
+	String hoTen;
+	String maSV;
+	float diemToan, diemLy, diemHoa;
+	
+	
+	public sinhVien(String hoTen, String maSV, float diemToan, float diemLy, float diemHoa) {
+		super();
+		this.hoTen = hoTen;
+		this.maSV = maSV;
+		this.diemToan = diemToan;
+		this.diemLy = diemLy;
+		this.diemHoa = diemHoa;
+	}
+	
+	public String getHoTen() {
+		return hoTen;
+	}
+	public void setHoTen(String hoTen) {
+		this.hoTen = hoTen;
+	}
+	public String getMaSV() {
+		return maSV;
+	}
+	public void setMaSV(String maSV) {
+		this.maSV = maSV;
+	}
+	public float getDiemToan() {
+		return diemToan;
+	}
+	public void setDiemToan(float diemToan) {
+		this.diemToan = diemToan;
+	}
+	public float getDiemLy() {
+		return diemLy;
+	}
+	public void setDiemLy(float diemLy) {
+		this.diemLy = diemLy;
+	}
+	public float getDiemHoa() {
+		return diemHoa;
+	}
+	public void setDiemHoa(float diemHoa) {
+		this.diemHoa = diemHoa;
+	}
+	@Override
+	public String toString() {
+		return "sinhVien [hoTen=" + hoTen + ", maSV=" + maSV + ", diemToan=" + diemToan + ", diemLy=" + diemLy
+				+ ", diemHoa=" + diemHoa + "]";
+	}
+	
+	
+}

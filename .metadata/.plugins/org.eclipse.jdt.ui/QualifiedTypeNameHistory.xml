@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sinhVien"/>
     <fullyQualifiedTypeName name="javax.management.MBeanServerInvocationHandler"/>
     <fullyQualifiedTypeName name="giaoVien"/>
     <fullyQualifiedTypeName name="hieuTruong"/>
+    <fullyQualifiedTypeName name="sinhVien"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="BaiTapOOP.QuanLySinhVien"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>
