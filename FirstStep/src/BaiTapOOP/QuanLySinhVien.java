@@ -31,7 +31,31 @@ public class QuanLySinhVien {
 			System.out.println("Khong co sv nao Yeu");
 		}
 	}
-	
+	public void timTheoTen(String ten) {
+        boolean found = false;
+        for (SinhVien sv : ds) {
+            if (sv.getHoTen().equalsIgnoreCase(ten)) {
+                System.out.println(sv);
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.println("Không tìm thấy sinh viên tên: " + ten);
+        }
+    }
+
+    public void timTheoMa(String ma) {
+        boolean found = false;
+        for (SinhVien sv : ds) {
+            if (sv.getMaSV().equalsIgnoreCase(ma)) {
+                System.out.println(sv);
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.println("Không tìm thấy sinh viên mã: " + ma);
+        }
+    }
 	public void xoaSV(String ma) {
 		boolean removed = ds.removeIf(sv -> sv.getMaSV().equalsIgnoreCase(ma));
 		if(removed) {

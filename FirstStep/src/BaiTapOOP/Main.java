@@ -46,16 +46,16 @@ public class Main {
                 case 4:
                     ql.svYeu();
                     break;
-//                case 5:
-//                    System.out.print("Nhập tên cần tìm: ");
-//                    String tenTim = sc.nextLine();
-//                    ql.timTheoTen(tenTim);
-//                    break;
-//                case 6:
-//                    System.out.print("Nhập mã cần tìm: ");
-//                    String maTim = sc.nextLine();
-//                    ql.timTheoMa(maTim);
-//                    break;
+                case 5:
+                    System.out.print("Nhập tên cần tìm: ");
+                    String tenTim = sc.nextLine();
+                    ql.timTheoTen(tenTim);
+                    break;
+                case 6:
+                    System.out.print("Nhập mã cần tìm: ");
+                    String maTim = sc.nextLine();
+                    ql.timTheoMa(maTim);
+                    break;
                 case 7:
                     System.out.print("Nhập mã cần xóa: ");
                     String maXoa = sc.nextLine();
