@@ -4,9 +4,20 @@
     <fullyQualifiedTypeName name="giaoVien"/>
     <fullyQualifiedTypeName name="hieuTruong"/>
     <fullyQualifiedTypeName name="sinhVien"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="BaiTapOOP.QuanLySinhVien"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.MysqlConnection"/>
+    <fullyQualifiedTypeName name="crm.config.MysqlConnection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="crm.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="crm.model.User"/>
+    <fullyQualifiedTypeName name="crm.service.LoginService"/>
+    <fullyQualifiedTypeName name="tien.model.Role"/>
 </qualifiedTypeNameHistroy>
