@@ -12130,3 +12130,241 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 21:24:45.033
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/java/tien/service/RoleService.java
+!SESSION 2025-09-26 22:37:03.715 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-26 22:37:09.381
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-26 22:37:16.881
+!MESSAGE Logback config file: D:\Java Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:37:24.855
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:37:24.858
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:37:24.881
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-26 22:37:24.947
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\OS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:37:29.440
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:37:29.754
+!MESSAGE [Info]	[certificates] Removed 13 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:17.762
+!MESSAGE [Info]	[fetchChat] Request 7c4ca845-a0ac-4665-8f23-6c7a4053eb4b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2587.686699999962ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:19.996
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:21.744
+!MESSAGE [Info]	[fetchChat] Request 90a09c04-bd9c-4423-b5a0-cc38aa195c3e at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1306.0818999999901ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:21.990
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:23.166
+!MESSAGE [Info]	[fetchChat] Request 3f4f2217-cad0-4ffe-9935-bc30f5da0d81 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1133.8120000000345ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:30.110
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:32.839
+!MESSAGE [Info]	[fetchChat] Request 97a64374-dc70-43c3-9850-bef5483da65c at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 725.6679000000004ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:33.298
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:35.859
+!MESSAGE [Info]	[fetchChat] Request 7276f567-4e97-4357-bdd6-a9df178cf6e3 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1331.0628999999608ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:37.195
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:37.682
+!MESSAGE [Info]	[fetchChat] Request 07e8243a-4694-4557-ac48-bd506890b0ef at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 500.02410000003874ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:43:37.870
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:44:46.627
+!MESSAGE [Info] Language ID not found for extension: jsp
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:44:47.117
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:45:42.797
+!MESSAGE [Info] Document is null for editor: role.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:45:42.798
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/webapp/role.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:48:56.616
+!MESSAGE [Info] Document is null for editor: LoginService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:48:56.616
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/java/tien/service/LoginService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:48:59.062
+!MESSAGE [Info] Document is null for editor: MysqlConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 22:48:59.062
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/java/tien/config/MysqlConnection.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:50:29.120
+!MESSAGE [Info]	[fetchChat] Request c386dcf6-705f-4a99-9118-4bf00b941fa2 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1807.6008999999613ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:50:35.905
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:50:39.938
+!MESSAGE [Info]	[fetchChat] Request 588de6ca-b701-4006-80cd-1ce642d0de47 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 4050.716800000053ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:50:40.110
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:00.348
+!MESSAGE [Info]	[fetchChat] Request a3858de0-c971-4be5-86f2-bebcb5d1fd3f at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 852.8043000000762ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:00.499
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:01.352
+!MESSAGE [Info]	[fetchChat] Request 458714e3-8681-40f5-bd2f-2e1088d195dc at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 844.0879999999888ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:01.677
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:02.451
+!MESSAGE [Info]	[fetchChat] Request 2625558a-740f-49ce-b61d-4c0a41303ef2 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 791.5681000000332ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:02.607
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:03.374
+!MESSAGE [Info]	[fetchChat] Request 52cf94a0-802e-4120-8454-0e6f373eee35 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 765.4163999999873ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:03.875
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:04.969
+!MESSAGE [Info]	[fetchChat] Request 238dc3e3-e860-4eb4-9fa3-41c372f6a6b9 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1093.0254000000423ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:10.683
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:11.154
+!MESSAGE [Info]	[fetchChat] Request c1c6f0de-110d-4c65-91c7-ad73f9f3ceef at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 538.471700000111ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:11.782
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:13.687
+!MESSAGE [Info]	[fetchChat] Request 684f17a5-31f0-4e86-9c6f-490b5ec8eddf at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1011.874300000025ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:13.964
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:14.673
+!MESSAGE [Info]	[fetchChat] Request 463b5be5-023d-4ad3-bf7f-adeeaf42291d at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 588.5241999999853ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:16.647
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:17.692
+!MESSAGE [Info]	[fetchChat] Request d3842e4c-1703-4362-9ead-8a85e048ad47 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1085.0688000000082ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:20.056
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:20.579
+!MESSAGE [Info]	[fetchChat] Request eba840e8-448a-4b27-9f7a-27d8a268289f at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 581.2126999999164ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:52:21.672
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:56:31.572
+!MESSAGE [Info]	[fetchChat] Request 312e5adc-c8f9-426a-9432-73efc49e44b0 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1890.001099999994ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:56:38.203
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:56:38.397
+!MESSAGE [Info]	[fetchChat] Request e87d417e-716c-475c-ae2d-559944f9c65f at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 531.6304999999702ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-26 22:56:38.653
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:40.892
+!MESSAGE [Info] Document is null for editor: RoleRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:40.893
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/java/tien/repository/RoleRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:40.938
+!MESSAGE [Info] Document is null for editor: RoleServlet.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:40.939
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/java/tien/controller/RoleServlet.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:40.974
+!MESSAGE [Info] Document is null for editor: role.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:40.975
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/webapp/role.jsp
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:41.015
+!MESSAGE [Info] Document is null for editor: RoleService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-26 23:23:41.016
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Java%20Backend/servlet/tien/src/main/java/tien/service/RoleService.java
+!SESSION 2025-09-27 22:22:22.189 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-27 22:22:27.578
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-27 22:22:32.747
+!MESSAGE Logback config file: D:\Java Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-27 22:22:44.728
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-27 22:22:45.028
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-09-27 22:22:45.089
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-27 22:22:45.564
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\OS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-27 22:22:56.849
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-09-27 22:22:57.891
+!MESSAGE [Info]	[certificates] Removed 13 expired certificates
